@@ -1,0 +1,388 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 100%;
+}
+/* navbar */
+.barnav{
+    width: 100%;
+    height: 15px;
+    background-color: rgb(227, 226, 226);
+    padding: 15px 0px;
+}
+.toplist{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.list-items{
+    list-style: none;
+    margin: 0px 20px 0px 20px;
+    font-size: 13px;
+}
+
+/*  head-text */
+.headtext{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+}
+.discount{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.headshop{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* iphone 15 */
+.iphone15{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+.iphone15-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iphone15-text{
+    text-align: center;
+    margin-top: -150px;
+}
+.iphone15-new{
+    color: orange;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 90px;
+}
+.text15{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.titanium{
+    color: #555652;
+    font-size: 50px;
+    margin-top: 12px;
+}
+.price-range{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.iphone15-button{
+    color: white;
+    padding: 7px 15px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 18px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+.ibuy{
+    text-decoration: none;
+    color: white;
+}
+.alearn{
+    color: rgb(63, 63, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+.iphone15km{
+    color: rgb(63, 63, 255);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+}
+.iphone-img15{
+    width: 100%;
+    margin-right: -850px;
+}
+.iphone15-product{
+    width: 1000px;
+    margin-top: 100px;
+}
+
+/* iPhone SE */
+.iphone-SE{
+    width: 100%;
+    height: 1100px;
+    background-color: white;
+}
+.SE-contents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    margin-top: 0px;
+    align-items: center;
+}
+.SE-text{
+    background-color: #ffffff;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textSE{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.SE-heading{
+    color: rgb(50, 50, 254);
+    font-size: 45px;
+}
+.SE-price{
+    font-weight: 400;
+    font-size: 30px;
+}
+.iphoneSE-button{
+    color: white;
+    padding: 7px 15px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 18px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.iphoneSEkm{
+    color: blue;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.SE-buy{
+    color: #ffffff;
+}
+.SE-km{
+    text-decoration: none;
+    color: rgb(50, 50, 254);
+    font-size: 20px;
+}
+
+.SE-img{
+    background-color: rgb(255, 255, 255);
+    height: 1100px;
+}
+.justSE{
+    margin-top: 200px;
+    height: 650px;
+    
+}
+
+/* iphone accessories */
+
+/* magsafe */
+.accessories{
+    height: 1600px;
+    width: 100%;
+    background-color: #d9d9d9;
+}
+.heading-access{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 65px;
+    font-weight: 500;
+}
+.header-access{
+    position: relative;
+    margin-left: 210px;
+}
+.magsafe-contents{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    margin-top: -220px;
+    align-items: center;
+}
+.magsafe-text{
+    background-color: #ffffff;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50%;
+    padding: 40px 0px;
+}
+.header-mag{
+    font-size: 40px;
+    padding-bottom: 15px;
+    margin-top: -20px;
+}
+.head-magsafe{
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.magsafe-link{
+    color: rgb(50, 50, 254);
+    font-size: 20px;
+}
+.magsafe-img{
+    background-color: #ffffff;
+    margin-top: 50%;
+    padding: 40px 0px;
+}
+
+/* airtag */
+.airtag-contents{
+    position: absolute;
+    margin-top: 700px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    align-items: center;
+}
+.airtag-img{
+    width: 549px;
+    background-color: #ffffff;
+    margin-top: 5%;
+}
+.airtag-text{
+    background-color: #ffffff;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.header-tag{
+    font-size: 40px;
+    padding-bottom: 15px;
+    margin-top: -20px;
+}
+.head-airtag{
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.airtag-link{
+    color: rgb(50, 50, 254);
+    font-size: 20px;
+}
+
+/* Apple entertainment services */
+.apple-services{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(0, 0, 0);
+}
+.heading-services{
+    font-size: 50px;
+    text-align: center;
+    padding: 60px 0px;
+    color: #ffffff;
+}
+.services-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 533px;
+    width: 1098px;
+    margin-left: 13.5%;
+    
+}
+.services-logo{
+    width: 543px;
+}
+.apple-pay{
+    width: 180px;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px;
+    margin-right: 15px;
+}
+.services-link{
+    font-size: 20px;
+    color: rgb(50, 50, 254);
+    font-weight: 500;
+}
+.apple-tv{
+    width: 210px;
+    border-radius: 55px;
+    box-shadow: 10px 10px 10px;
+}
+.header-services{
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 8px;
+}
+.head-services{
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.services-km{
+    text-align: center;
+    color: rgb(50, 50, 254);
+}
+
+/* footer */
+.apple-footer{
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+}
+/* .apple-footer>a{
+    margin-top: 20px;
+} */
+.apple-foot-logo{
+    position: absolute;
+    padding-top: 45px;
+    margin-left: 55px;
+}
+.footer-bg{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.foot2{
+    width: 250px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.foot2>a{
+    font-size: 12px;
+    padding: 10px;text-align: left;
+}
+#copyright{
+    font-size: 12px;
+}
